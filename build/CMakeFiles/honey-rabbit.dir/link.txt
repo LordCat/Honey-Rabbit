@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\honey-rabbit.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\honey-rabbit.dir/objects.a @CMakeFiles\honey-rabbit.dir\objects1.rsp
+g++ -g -Wl,--whole-archive CMakeFiles\honey-rabbit.dir/objects.a -Wl,--no-whole-archive -o honey-rabbit.exe -Wl,--out-implib,libhoney-rabbit.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\honey-rabbit.dir\linkLibs.rsp

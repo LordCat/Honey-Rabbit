@@ -1,0 +1,10 @@
+^C:\USERS\DOOMA\REPOS\HONEY-RABBIT\BUILD\CMAKEFILES\33C2E73FF0F6A26FF2A9AA8BE5B400E7\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/dooma/Repos/Honey-Rabbit -BC:/Users/dooma/Repos/Honey-Rabbit/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/dooma/Repos/Honey-Rabbit/build/honey-rabbit.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

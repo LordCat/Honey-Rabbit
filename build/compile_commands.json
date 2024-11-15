@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/dooma/Repos/Honey-Rabbit/build",
+  "command": "g++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB  -g -o CMakeFiles\\honey-rabbit.dir\\src\\main.cpp.obj -c C:\\Users\\dooma\\Repos\\Honey-Rabbit\\src\\main.cpp",
+  "file": "C:/Users/dooma/Repos/Honey-Rabbit/src/main.cpp",
+  "output": "CMakeFiles/honey-rabbit.dir/src/main.cpp.obj"
+}
+]
